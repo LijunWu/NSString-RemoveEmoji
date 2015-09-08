@@ -14,7 +14,7 @@
         
     // Not surrogate pair (U+2100-27BF)
     } else {
-        if(0x278b <= high && high <= 2792) {
+        if(0x278b <= high && high <= 0x2792) {
             // 中文9宫格键盘 ②-⑨
             return NO;
         }
